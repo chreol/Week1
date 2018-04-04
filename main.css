@@ -52,35 +52,38 @@ body{
 }
 /* this is strategies div1 */
 .strategies{
-    border: 4px outset blue;
+    border: 4px inset blue;
     background-color: grey;
     font-size: 15px;
     border-radius: 10px;
-    padding: 5px 5px 5px 5px;
-    margin: 10px 10px 10px 10px;
-    /* position: absolute; */
+    padding: 1px 5px px px;
+    width: 30%;
+    float: left;
+    height: 100px;
 }
  /* this is contact div2*/
 .my-contact{
-    border: 4px groove whitesmoke;
+    border: 4px inset whitesmoke;
     background-color: teal;
     border-radius: 10px;
-    padding: 5px 5px 5px 5px;
-    /* margin: 10px 500px 10px 500px;*/
-
-    
+    padding: 1px 5px px 5px;
+    margin: 0px 35px 0px 35px;
+    width: 30%;
+    float: left;
+    height: 100px;
 }
 
 /* This is platform div3  */
 .platform{
     border: 4px inset green;
     border-radius: 10px;    
-    padding: 5px 5px 5px 5px;
-    margin: 10px 10px 10px 10px;
-    /* float: right;
-    position: relative;*/
+    padding: 1px 5px px px;
+    margin: 0px 25px 0px 10px;
     background-color: firebrick;
     font-size: 15px;
+    width: 30%;
+    float: left;
+    height: 100px;
 }
 
 /* This are nav div */
