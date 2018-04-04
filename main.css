@@ -6,16 +6,93 @@ header h1{
     padding-left: 300px;
     padding-right: 300px;
     margin: 3px 5px 8px 10px; 
+    
 }
 
 body{
     text-align: center;
     background-color: palegreen;
 }
+
+.name-class{
+    border: 5px solid whitesmoke;
+    border-radius: 10px;
+    font-family: Helvetica, sans-serif, Arial;
+    font-size: 25px;
+    background-color: steelblue;
+    width: 500px;
+    /*        top right bottom left*/  
+    padding:  0px 10px 0px 0px;
+    margin-left: 400px;
+    
+}
+
+
 .chreol-image{
     border: 4px solid grey;
     border-radius: 10px;
     width: 300px;
     height: 600px;
     object-position: center;
+}
+
+ /* design ''Here are # type HTag'' */
+.P-tag{
+    font-family: monospace;
+    font-size: bold;
+    font-style: oblique;
+    font-size: 25px;
+    fill-opacity: unset;
+}
+/*DIVISIONMASTER */
+/* style: top right botom left*/
+.division{
+    border: 2px none mediumslateblue;
+    border-radius: 10px;
+}
+/* this is strategies div1 */
+.strategies{
+    border: 4px outset blue;
+    background-color: grey;
+    font-size: 15px;
+    border-radius: 10px;
+    padding: 5px 5px 5px 5px;
+    margin: 10px 10px 10px 10px;
+    /* position: absolute; */
+}
+ /* this is contact div2*/
+.my-contact{
+    border: 4px groove whitesmoke;
+    background-color: teal;
+    border-radius: 10px;
+    padding: 5px 5px 5px 5px;
+    /* margin: 10px 500px 10px 500px;*/
+
+    
+}
+
+/* This is platform div3  */
+.platform{
+    border: 4px inset green;
+    border-radius: 10px;    
+    padding: 5px 5px 5px 5px;
+    margin: 10px 10px 10px 10px;
+    /* float: right;
+    position: relative;*/
+    background-color: firebrick;
+    font-size: 15px;
+}
+
+/* This are nav div */
+nav ul{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+nav li{
+    display: inline-block;
+    margin: 0px;
+    padding: 0px;
+    width: 50px;
+    height: 30px;
 }
