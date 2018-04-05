@@ -115,3 +115,7 @@ nav li{
     border-radius: 10%;
 
 }
+
+.fa:hover {
+    text-shadow: 2px 2px 15px black !important;
+}
